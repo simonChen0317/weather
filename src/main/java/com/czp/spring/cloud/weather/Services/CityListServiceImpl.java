@@ -23,7 +23,7 @@ public class CityListServiceImpl implements CityListService {
     @Override
     public List<City> listCity() throws Exception {
         //读取xml文件
-        Resource resource = new ClassPathResource("static/citylist.xml");
+        Resource resource = new ClassPathResource("citylist.xml");
         BufferedReader br =new BufferedReader(new InputStreamReader(resource.getInputStream(),"utf-8"));
         StringBuffer buffer =new StringBuffer();
         String line="";

@@ -42,16 +42,15 @@
     <div class="row">
         <div class="card border-info" th:each="forecast : ${reportModel.report.forecast}">
             <div class="card-body text-info">
-                <p class ="card-text" th:text="${forecast.date}">日期</p>
-                <p class ="card-text" th:text="${forecast.type}">天气类型</p>
-                <p class ="card-text" th:text="${forecast.high}">最高温度</p>
-                <p class ="card-text" th:text="${forecast.low}">最低温度</p>
-                <p class ="card-text" th:text="${forecast.fengxiang}">风向</p>
+                <p class="card-text" th:text="${forecast.date}">日期</p>
+                <p class="card-text" th:text="${forecast.type}">天气类型</p>
+                <p class="card-text" th:text="${forecast.high}">最高温度</p>
+                <p class="card-text" th:text="${forecast.low}">最低温度</p>
+                <p class="card-text" th:text="${forecast.fengxiang}">风向</p>
             </div>
         </div>
     </div>
 </div>
-
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
