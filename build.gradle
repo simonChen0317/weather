@@ -44,6 +44,8 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-redis')
 	// Quartz，添加quartz定时任务
 	compile('org.springframework.boot:spring-boot-starter-quartz')
+	// 添加 Spring Boot Thymeleaf Starter 的依赖
+	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	// 该依赖用于测试阶段
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
